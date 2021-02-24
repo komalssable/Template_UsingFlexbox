@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Template</title>
+    <style>
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+.header {
+    padding: 60px;
+    text-align: center;
+    background: lightslategray;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar {
+  background-color:olivedrab;
+  height: 30px;
+}
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-align: center;
+}
+
+  .navbar a:hover {
+  background-color:oldlace;
+  color: black;
+}
+
+  .about-me{
+      background-color: mediumaquamarine;
+      flex-wrap: wrap;
+  }
+
+  .row1{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .title{
+      background-color: linen;
+      width: 100%;
+      padding:20px;
+  }
+
+  .main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+
+  .myimg{
+    background-color:lightslategray;
+    width:auto;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+  }
+
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+  }
+  @media screen and (max-width: 700px) {
+    .row1, .navbar {   
+      flex-direction: column;
+    }
+  }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <h1>My Website</h1>
+        </div>
+    </div>    
+        <div class="navbar">
+            <a href="#link">Home</a>
+            
+            <a href="#link">About us</a>
+            
+            <a href="#link">Contact</a>
+            
+            <a href="#link">Help</a>
+        </div>
+    
+
+    <div class="row1">
+         <div class="about-me">
+            <h2>About Me</h2>
+            <h5>Photo of me:</h5>
+            <div class="myimg" style="height:200px;">Image</div>
+            <p>Hello,i am .....</p>
+            <p>some description aboyt me.......</p>
+            <div class="myimg" style="height:60px;">Image</div>
+            <br>
+            <div class="myimg" style="height:60px;">Image</div>
+        
+        </div>
+
+        <div class="main">
+            <div class="title">
+                <h2>Title</h2>
+                <div>
+                    
+                    <div class="myimg" style="height:60px;">Image</div>
+                    <h3>SubTitle.</h3>
+                    <p>some decription in detail, some decription in detail, some decription in detail
+                        some decription in detail,some decription in detail,some decription in detail,
+                        some decription in detail, some decription in detail, some decription in detail
+                        some decription in detail, some decription in detail, some decription in detail
+                        some decription in detail,some decription in detail,some decription in detail,
+                        some decription in detail, 
+                    </p>
+                </div>
+                <br>
+                <div>
+                    <div class="myimg" style="height:60px;">Image</div>
+                    <h3>SubTitle.</h3>
+                    <p>some decription in detail, some decription in detail, some decription in detail
+                        some decription in detail,some decription in detail,some decription in detail,
+                        some decription in detail, some decription in detail, some decription in detail,
+                        some decription in detail, some decription in detail, some decription in detail
+                        some decription in detail,some decription in detail,some decription in detail,
+                        some decription in detail, 
+                    </p>
+                </div>
+             </div>
+    </div>
+    </div>
+</body>
+</html>
